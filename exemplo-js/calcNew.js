@@ -1,7 +1,9 @@
-function meuNome(nome) {
-    console.log(nome);
+// Funções
+function soma(num1, num2) {
+    console.log(num1 + num2);
 }
 
-meuNome("Giovanni");
-meuNome("Juliana");
-meuNome("Léo");
+// Imprimir resultados
+soma(10, 10);
+soma(5, 5);
+
