@@ -1,5 +1,3 @@
-const javaScript = "Java Script";
+const mozilla = "Mozilla Deloper Network";
 
-const js = javaScript[0] + javaScript[5];
-
-console.log(js)
+// mdn
