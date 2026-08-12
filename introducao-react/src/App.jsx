@@ -1,4 +1,5 @@
 import Header from "./Components/Header"
+import Card from "./Components/Card"
 
 function App() {
 
@@ -6,18 +7,7 @@ function App() {
     <>
       <Header />
 
-      <section>
-        <article>
-          <h1>Lorem Ipsun</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cumque delectus, maxime et voluptatem quae aut qui nisi placeat deleniti sapiente adipisci sunt deserunt id. Voluptatibus asperiores commodi explicabo placeat!</p>
-        </article>
-
-        <article>
-          <h1>Lorem Ipsun</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cumque delectus, maxime et voluptatem quae aut qui nisi placeat deleniti sapiente adipisci sunt deserunt id. Voluptatibus asperiores commodi explicabo placeat!</p>
-        </article>
-        <hr />
-      </section>
+      <Card />
 
       <footer>
         <p>Lorem ipsum dolor sit amet con.</p>
