@@ -5,7 +5,11 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header title="Meu site" />
+
+       <Header title="Lorem Ipsum" />
+
+       <Header title="Introdução React" />
 
       <Card />
 
