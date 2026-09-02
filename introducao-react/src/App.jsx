@@ -3,6 +3,8 @@ import Card from "./Components/Card"
 import Footer from "./Components/Footer"
 import Banner from "./Components/Banner"
 import ImgCard from "./Components/ImgCard"
+import Count from "./Components/Count"
+import Box from "./Components/Box"
 
 function App() {
 
@@ -10,9 +12,9 @@ function App() {
     <>
       <Header title="Meu site" />
 
-       <Header title="Lorem Ipsum" />
+       <Count />
 
-       <Header title="Introdução React" />
+       <Box />
 
        <ImgCard caption="New Lorem Ipsum" />
 
