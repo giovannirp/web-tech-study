@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css"
 
 export default function index() {
   // Estado para armazenar os dados do formulário
@@ -23,8 +25,33 @@ export default function index() {
   const haldleSubmit = (e) => {
     e.preventDefault();
 
-    
-    console.log("Olá....")
+    // Validação dos campos
+    if (formData.nome == "" || formData.email == "" || formData.telefone == "") {
+      // alert("Todos os campos são obrigatórios!")
+      toast.error("Todos os campos são obrigatórios!")
+      return false;
+    }
+
+    // Enviando os dados para o backend como JSON
+    fetch("http://localhost:3000/usuarios", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData)
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Usuários cadastrado com sucesso:", data)
+        // Limpa o formulário após o envio
+        toast.success("Usuários cadastrado com sucesso!")
+        setFormData({
+          nome: "",
+          telefone: "",
+          email: ""
+        })
+      })
+
   }
 
   return (
@@ -62,6 +89,8 @@ export default function index() {
         </article>
 
         <button type="submit">Cadastrar</button>
+
+        <ToastContainer />
 
       </form>
     </main>
