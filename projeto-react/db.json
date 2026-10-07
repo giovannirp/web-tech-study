@@ -4,12 +4,17 @@
       "nome": "João Silva",
       "telefone": "11999990001",
       "email": "joao@hotmail.com",
+<<<<<<< HEAD
       "id": "bDlDH6mQJgQ"
+=======
+      "id": "tjhcvmcJuIM"
+>>>>>>> 211ba470252a154491266de4ca1e2dc97b5f438a
     },
     {
       "nome": "Caio",
       "telefone": "44444444",
       "email": "caio@hotmail.com",
+<<<<<<< HEAD
       "id": "VSEGQkmoSPQ"
     },
     {
@@ -41,6 +46,9 @@
       "telefone": "787878",
       "email": "juliana@hotmail.com",
       "id": "h2FakRF2axY"
+=======
+      "id": "tWPwdzA87uc"
+>>>>>>> 211ba470252a154491266de4ca1e2dc97b5f438a
     }
   ],
   "faq": [
