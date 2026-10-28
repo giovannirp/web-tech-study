@@ -1,54 +1,10 @@
 {
   "usuarios": [
     {
-      "nome": "João Silva",
-      "telefone": "11999990001",
-      "email": "joao@hotmail.com",
-<<<<<<< HEAD
-      "id": "bDlDH6mQJgQ"
-=======
-      "id": "tjhcvmcJuIM"
->>>>>>> 211ba470252a154491266de4ca1e2dc97b5f438a
-    },
-    {
-      "nome": "Caio",
-      "telefone": "44444444",
-      "email": "caio@hotmail.com",
-<<<<<<< HEAD
-      "id": "VSEGQkmoSPQ"
-    },
-    {
-      "nome": "Juliana",
-      "telefone": "98989899",
-      "email": "juliana@hotmail.com",
-      "id": "b1ZA1awdCF0"
-    },
-    {
-      "nome": "EDMAR DANTAS DA SILVA DUARTE",
-      "telefone": "4545454545454",
-      "email": "edmar.duarte@edu.senai.br",
-      "id": "_4cpGy39NdQ"
-    },
-    {
-      "nome": "dfdf",
-      "telefone": "fdfdf",
-      "email": "fdfd",
-      "id": "uypEwUoQotg"
-    },
-    {
-      "nome": "EDMAR DANTAS DA SILVA DUARTE",
-      "telefone": "4545454545454",
-      "email": "edmar.duarte@edu.senai.br",
-      "id": "A7UKDKJsRuw"
-    },
-    {
-      "nome": "Juliana",
-      "telefone": "787878",
-      "email": "juliana@hotmail.com",
-      "id": "h2FakRF2axY"
-=======
-      "id": "tWPwdzA87uc"
->>>>>>> 211ba470252a154491266de4ca1e2dc97b5f438a
+      "nome": "Julia Vitoria Souza De Almeida",
+      "telefone": "898989",
+      "email": "00001127093769sp@al.educacao.sp.gov.br",
+      "id": "XSCaiC0_dgo"
     }
   ],
   "faq": [

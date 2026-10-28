@@ -71,7 +71,7 @@ export default function index() {
         <article className="form-control">
           <label htmlFor="telefone">Telefone</label>
           <input
-            type="text"
+            type="number"
             name="telefone"
             value={formData.telefone}
             onChange={handleChange}
